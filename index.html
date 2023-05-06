@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+		<meta charset="UTF-8" />
+		
+		<link
+		rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+		crossorigin="anonymous"/>
+<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+	<link rel="stylesheet" href="src/style.css" />
+	
+  </head>
+
+  <body>
+    <div class="container">
+				<!-- <div class="logo">
+            <img src="image/logo.jpg" />
+          </div> -->
+      <div class="weatherApp">
+        <form class="searchForm" id = "searchForm">
+          <div class="row">
+
+            <div class="col-6">
+							
+				<input type="search"
+				 placeholder="Enter City Name" 
+				 id ="city-search"
+				 class="form-control shadow-sm" />
+						
+			</div>
+						
+ <div class="col-3">
+							<input type="submit" 
+							value="Search"
+							
+							 class="form-control btn btn-primary shadow-sm" />
+					</div>
+				
+					<div class="col-3">
+						<button class="btn btn-success"
+						id="current-location">
+							Location
+						</button>
+					</div>
+					</div>
+				</form>
+			<h2 id = "city">
+						</br>
+			</h2>
+			<ul>
+				<li id="today-date">
+					
+				</li>
+				<li>
+									Sunny
+								</li>
+							</ul>
+
+							<div class="row">
+									<div class="col-6">
+										<div class="container-two">
+											<img class="weathericon"
+												src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+												alt="Cloudy icon"
+												
+											/>
+											<div class="container-three">
+												<span class="degrees" id="temperature">20 </span
+												><span class="units">°C | °F </span>
+											</div>
+										</div>
+									</div>
+									<div class="col-4">
+							
+											<li>
+												Humidity: 50%
+											</li>
+											<li>
+												Wind: 9 mph / km
+											</li>
+										</ul>
+									</div>
+							</div>
+			</div>
+		</div>
+  
+								
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

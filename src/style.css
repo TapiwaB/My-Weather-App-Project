@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+.weatherApp {
+  border: 1px solid #7c7c7c;
+  margin: 15px auto;
+  padding: 20px;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+h2 {
+  padding-top: 10px;
+  color: #0ea87aea;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+ul {
+  padding: 0px;
+  margin: 5px;
+}
+
+li {
+  font-size: 16px;
+  list-style: none;
+  color: #0ea87aea;
+}
+
+.degrees {
+  font-size: 40px;
+  font-weight: 400;
+}
+.weathericon {
+  width: 60px;
+  float: left;
+}
